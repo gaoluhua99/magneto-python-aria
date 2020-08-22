@@ -48,6 +48,7 @@ This project is heavily inspired from @out386 's telegram bot which is written i
 - Index Link support
 
 ## Bot commands to be set in botfather
+## @botfather 输入/setcommands 然后把下面的命令复制输入到里面。
 
 ```
 mirror - Start Mirroring
@@ -82,6 +83,13 @@ For Debian based distros
 sudo apt install python3
 sudo snap install docker 
 ```
+增加ubuntu 的docker安装方法
+使用官方安装脚本自动安装
+安装命令如下：
+curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
+也可以使用国内 daocloud 一键安装命令：
+curl -sSL https://get.daocloud.io/docker | sh
+
 - For Arch and it's derivatives:
 ```
 sudo pacman -S docker python
